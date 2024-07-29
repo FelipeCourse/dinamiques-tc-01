@@ -6,9 +6,9 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/github/repo-size/felipe-dr/REPO?style=for-the-badge&color=4e5acf" alt="Repo size" />
-  <a aria-label="Last Commit" href="https://github.com/felipe-dr/REPO/commits/main">
-    <img src="https://img.shields.io/github/last-commit/felipe-dr/REPO?style=for-the-badge&color=4e5acf" alt="Last commit on GitHub" />
+  <img src="https://img.shields.io/github/repo-size/FelipeCourse/dinamiques-tc-01?style=for-the-badge&color=4e5acf" alt="Repo size" />
+  <a aria-label="Last Commit" href="https://github.com/FelipeCourse/dinamiques-tc-01/commits/main">
+    <img src="https://img.shields.io/github/last-commit/FelipeCourse/dinamiques-tc-01?style=for-the-badge&color=4e5acf" alt="Last commit on GitHub" />
   </a>
   <!-- <img src="https://img.shields.io/badge/license-MIT-4e5acf?style=for-the-badge" alt="License" /> -->
   <img src="https://img.shields.io/badge/status-concluído-brightgreen?style=for-the-badge" alt="Status" />
