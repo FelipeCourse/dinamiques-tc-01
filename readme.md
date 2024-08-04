@@ -108,7 +108,7 @@ Contém imagens da aplicação exportadas e utilizadas na documentação princip
 
 #### /requests
 
-Contém o arquivo `.http` com exemplos de rotas para efetuar testes ao `endpoints` da API.
+Contém o arquivo `.http` com exemplos de rotas para efetuar testes aos `endpoints` da API.
 
 - Link da extensão utilizada no VSCode [REST Client](https://marketplace.visualstudio.com/items?itemName=humao.rest-client)
 
