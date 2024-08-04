@@ -2,7 +2,6 @@
   <img src="./04-design/examples/cover.png" alt="Dinamiques" />
   <hr>
   <h1 align="center">Dinamiques: conhecimento ao alcance de todos</h1>
-  <p align="center">Projeto desenvolvido para o Tech Challenge da fase 01 na PosTech do curso <strong>Full Stack Development</strong>.</p>
 </p>
 
 <p align="center">
@@ -48,7 +47,7 @@
 
 ## Sobre
 
-Segue abaixo a descrição e finalidade de cada pasta e arquivos contidos neste repositório.
+Projeto desenvolvido para o Tech Challenge da fase 01 na PosTech do curso Full Stack Development.
 
 ## Documentations
 
