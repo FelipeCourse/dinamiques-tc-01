@@ -1,0 +1,129 @@
+## CATEGORY
+
+### POST category
+POST https://personal-j8sqiwwn.outsystemscloud.com/Api/rest/v1/category
+Content-Type: application/json
+
+{
+  "name": "API test",
+  "color": "#986213"
+}
+
+
+### GET category
+GET https://personal-j8sqiwwn.outsystemscloud.com/Api/rest/v1/category
+
+
+### GET category by id
+GET https://personal-j8sqiwwn.outsystemscloud.com/Api/rest/v1/category/10
+
+
+### PUT category
+PUT https://personal-j8sqiwwn.outsystemscloud.com/Api/rest/v1/category/10
+Content-Type: application/json
+
+{
+   "name": "API Alterada",
+   "color": "#000000",
+}
+
+
+### DELETE category
+DELETE https://personal-j8sqiwwn.outsystemscloud.com/Api/rest/v1/category/10
+Content-Type: application/json
+
+
+# --------------------------------------------------------------------------- #
+
+
+## ARTICLE
+
+### POST article
+POST https://personal-j8sqiwwn.outsystemscloud.com/Api/rest/v1/article
+Content-Type: application/json
+
+{
+  "Title": "Hoje Teste de artigo",
+  "Slug": "hoje-teste-de-artigo",
+  "Summary": "Breve descrição de um artigo de teste.",
+  "ReadingTime": "10",
+  "Content": "<h1>Hoje</h1>",
+  "categoryId": 1
+}
+
+
+### GET article
+GET https://personal-j8sqiwwn.outsystemscloud.com/Api/rest/v1/article
+
+
+### GET article by id
+GET https://personal-j8sqiwwn.outsystemscloud.com/Api/rest/v1/article/30
+
+
+### PUT article
+PUT https://personal-j8sqiwwn.outsystemscloud.com/Api/rest/v1/article/3
+Content-Type: application/json
+
+{
+  "Title": "Alt Hoje Teste de artigo",
+  "Slug": "alt-hoje-teste-de-artigo",
+  "Summary": "Alt Breve descrição de um artigo de teste.",
+  "ReadingTime": "20",
+  "CategoryId": 2,
+  "TeacherId": 1
+}
+
+### DELETE article
+DELETE https://personal-j8sqiwwn.outsystemscloud.com/Api/rest/v1/article/15
+Content-Type: application/json
+
+
+# --------------------------------------------------------------------------- #
+
+
+## Teacher
+
+### POST teacher
+POST https://personal-j8sqiwwn.outsystemscloud.com/Api/rest/v1/teacher
+Content-Type: application/json
+
+{
+  "Teacher_Name": "Alfredo Ferreira",
+  "Teacher_Avatar": null,
+  "User_Name": "Hoje Prof Teste",
+  "User_Username": "Prof",
+  "User_Password": "1234",
+  "User_Email": "prof",
+  "User_IsActive": true
+}
+
+
+### GET teacher
+GET https://personal-j8sqiwwn.outsystemscloud.com/Api/rest/v1/teacher
+
+
+### GET teacher by id
+GET https://personal-j8sqiwwn.outsystemscloud.com/Api/rest/v1/teacher/2
+
+
+### PUT teacher
+PUT https://personal-j8sqiwwn.outsystemscloud.com/Api/rest/v1/teacher/2
+Content-Type: application/json
+
+{
+  "Teacher_Name": "Professor Teste Alterado2",
+  "Teacher_Avatar": null,
+  "Teacher_IsActive": false,
+  "User_Name": "Prof Teste Alterado2",
+  "User_Username": "ProfAlterado2",
+  "User_Password": "1234Alterado2",
+  "User_Email": "profAlterado2",
+}
+
+
+### DELETE teacher
+DELETE https://personal-j8sqiwwn.outsystemscloud.com/Api/rest/v1/teacher/2
+Content-Type: application/json
+
+
+# --------------------------------------------------------------------------- #
